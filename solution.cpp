@@ -77,7 +77,7 @@ struct Rational
 
 int main()
 {
-    ifstream inFile("testcase2.json"); // change filename if needed
+    ifstream inFile("testcase.json"); // change filename if needed
     if (!inFile)
     {
         cerr << "Error: Cannot open input file\n";
@@ -127,3 +127,4 @@ int main()
     else
         cout << toString(secret.num) << "/" << toString(secret.den) << "\n";
 }
+
